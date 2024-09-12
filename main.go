@@ -9,7 +9,7 @@ import (
 func main() {
 	if len(os.Args) < 4 {
 		fmt.Println("not enough arguments provided")
-		fmt.Println("usage: crawler <baseURL> <maxConcurrency> <maxPages>")
+		fmt.Println("usage: go_webcrawler <baseURL> <maxConcurrency> <maxPages>")
 		return
 	}
 	if len(os.Args) > 4 {
